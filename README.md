@@ -3,6 +3,4 @@
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=evad1n&repo=lexicogn&theme=gruvbox&hide_border=true)](https://github.com/evad1n/lexicogn)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=russell-hustle&repo=lyrical&theme=gruvbox&hide_border=true&line_height=100)](https://github.com/russell-hustle/lyrical)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=evad1n&repo=chatbot-wars&theme=gruvbox&hide_border=true&line_height=100)](https://github.com/evad1n/chatbot-wars)
-
 :dizzy_face::hammer:
