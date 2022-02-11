@@ -4,3 +4,27 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=evad1n&repo=lexicogn&theme=gruvbox&hide_border=true)](https://github.com/evad1n/lexicogn)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=russell-hustle&repo=lyrical&theme=gruvbox&hide_border=true&line_height=100)](https://github.com/russell-hustle/lyrical)
 :dizzy_face::hammer:
+
+                            \
+                             \
+                              \\
+                               \\
+                                >\/7
+                            _.-(6'  \
+                           (=___._/` \
+                                )  \ |
+                               /   / |
+                              /    > /
+                             j    < _\
+                         _.-' :      ``.
+                         \ r=._\        `.
+                        <`\\_  \         .`-.
+                         \ r-7  `-. ._  ' .  `\
+                          \`,      `-.`7  7)   )
+                           \/         \|  \'  / `-._
+                                      ||    .'
+                                       \\  (
+                                        >\  >
+                                    ,.-' >.'
+                                   <.'_.''
+                                     <'
