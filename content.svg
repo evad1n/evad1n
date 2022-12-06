@@ -2,21 +2,55 @@
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
-                @keyframes rotate {
+                @keyframes sphere {
                     0% {
-                        transform: rotateZ(0deg);
+                        transform: scale(1) rotate(0deg);
+                    }
+
+                    20% {
+                        transform: scaleY(0.9) scaleX(1.1) rotate(72deg);
+                    }
+
+                    40% {
+                        transform: scaleY(1.1) scaleX(0.9) rotate(144deg);
+                    }
+
+                    60% {
+                        transform: scaleY(0.95) scaleX(1.05) rotate(216deg);
+                    }
+
+                    80% {
+                        transform: scaleY(1.05) scaleX(0.95) rotate(288deg);
                     }
 
                     100% {
-                        transform: rotateZ(360deg);
+                        transform: scale(1) rotate(360deg);
                     }
                 }
 
-                .wrapper {
+                @keyframes up-down {
+                    0% {
+                        transform: translateY(100px);
+                    }
+
+                    50% {
+                        transform: translateY(-150px);
+                    }
+
+                    100% {
+                        transform: translateY(100px);
+                    }
+                }
+
+                .container {
                     margin: 200px;
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                }
+
+                .wrapper {
+                    animation: 2s ease-in-out infinite up-down;
                 }
 
                 .sphere {
@@ -39,13 +73,19 @@
                         /* outer left magenta */
                         10px 0 80px #0ff;
                     /* outer right cyan */
-                    animation: 5s linear infinite rotate;
+                    animation: 4s linear infinite sphere;
+
+                    border-bottom: 100px solid;
+                    border-color: #ffffff;
                 }
             </style>
-            <div class="wrapper">
-                <div class="sphere">
+
+            <div class="container">
+                <div class="wrapper">
+                    <div class="sphere" />
                 </div>
             </div>
         </div>
+
     </foreignObject>
 </svg>

@@ -30,5 +30,5 @@
                                      <'
 
 <div align="center" class="abc">
-    <img src="content.svg" width="800" height="400" alt="Magic">
+    <img src="content.svg" width="800" height="800" alt="Magic">
 </div>
