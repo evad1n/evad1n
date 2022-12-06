@@ -28,3 +28,7 @@
                                     ,.-' >.'
                                    <.'_.''
                                      <'
+
+<div align="center" class="abc">
+    <img src="content.svg" width="800" height="400" alt="Magic">
+</div>
