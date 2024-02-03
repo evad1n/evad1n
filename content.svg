@@ -54,29 +54,32 @@
                 }
 
                 .sphere {
+                    --primary-color: #85e44a;
+                    --secondary-color: #99ff00;
+
                     width: 300px;
                     height: 300px;
                     border-radius: 50%;
-                    box-shadow: inset 0 0 50px #fff,
+                    box-shadow: inset 0 0 50px var(--primary-color),
                         /* inner white */
-                        inset 20px 0 80px #f0f,
+                        inset 20px 0 80px var(--primary-color),
                         /* inner left magenta short */
-                        inset -20px 0 80px #0ff,
+                        inset -20px 0 80px var(--secondary-color),
                         /* inner right cyan short */
-                        inset 20px 0 300px #f0f,
+                        inset 20px 0 300px var(--primary-color),
                         /* inner left magenta broad */
-                        inset -20px 0 300px #0ff,
-                        /* inner right cyan broad */
-                        0 0 50px #fff,
+                        inset -20px 0 300px var(--secondary-color),
+                        /* Outer ring glow */
+                        0 0 50px #000000,
                         /* outer white */
-                        -10px 0 80px #f0f,
+                        -10px 0 80px var(--primary-color),
                         /* outer left magenta */
-                        10px 0 80px #0ff;
+                        10px 0 80px var(--secondary-color);
                     /* outer right cyan */
                     animation: 4s linear infinite sphere;
 
                     border-bottom: 100px solid;
-                    border-color: #ffffff;
+                    border-color: #f2fde2;
                 }
             </style>
 
